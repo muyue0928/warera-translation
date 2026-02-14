@@ -1234,6 +1234,7 @@ msgstr "Uygulama deseni"
 msgid "Application fee"
 msgstr "Başvuru ücreti"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "Başvur"
@@ -2742,7 +2743,7 @@ msgstr "Ekipmanlar"
 msgid "Error"
 msgstr "Hata"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:91
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
 msgid "Estimated benefit per"
 msgstr ""
 
@@ -2846,6 +2847,10 @@ msgstr "Akış"
 msgid "Fidelity Bonus"
 msgstr "Sadakat bonusu"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "Dövüş becerileri"
@@ -2935,7 +2940,7 @@ msgstr "Başka iş bul"
 msgid "Fine (remove money)"
 msgstr "Para cezası ver"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:201
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Kov"
 
@@ -3443,7 +3448,7 @@ msgstr "O Efsanevi'yi kovalamaya devam et"
 msgid "Keep fighting!"
 msgstr "Savaşmaya devam et!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:188
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "Mevcut şirkette tut"
 
@@ -4022,7 +4027,7 @@ msgstr "İsim"
 msgid "Need a job?"
 msgstr "İş mi arıyorsun?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:151
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
 msgid "Net benefit:"
 msgstr ""
 
@@ -4772,7 +4777,7 @@ msgstr "Üretim bonusu"
 #~ msgid "Production bonus from deposit resources in this region."
 #~ msgstr "Bu bölgedeki maden kaynakları üretim bonusu."
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:144
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
 msgid "Production bonus:"
 msgstr ""
 
@@ -4843,7 +4848,7 @@ msgstr "Bölge satın almayı öner"
 msgid "Propose to buy a region from another country"
 msgstr "Başka bir ülkeden bölge satın almayı öner"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:210
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "Maaş indirimi öner"
 
@@ -4890,7 +4895,7 @@ msgstr "Sıralamalar"
 msgid "Ranks"
 msgstr "Rütbeler"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:116
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
 msgid "Raw materials:"
 msgstr ""
 
@@ -5451,7 +5456,7 @@ msgstr "Satış emri eşleşti!"
 msgid "Sell orders"
 msgstr "Satış emirleri"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:99
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
 msgid "Sell price:"
 msgstr ""
 
@@ -6113,7 +6118,7 @@ msgstr "İşlemler"
 msgid "Transfer money"
 msgstr "Para transfer et"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:186
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "Şirkete transfer et (isteğe bağlı)"
 
@@ -6233,7 +6238,7 @@ msgstr "Bilgileri güncelle"
 #~ msgid "Update order"
 #~ msgstr "Emri güncelle"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:212
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "İşçiyi güncelle"
 
@@ -6501,7 +6506,7 @@ msgstr "Maaş"
 msgid "Wage changed"
 msgstr "Maaş değişti"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:107
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
 msgid "Wage cost ({productionPoints} pts):"
 msgstr ""
 
@@ -6612,8 +6617,12 @@ msgstr "Tüm üretim"
 msgid "Why do you want to propose this law?"
 msgstr "Bu yasayı neden önermek istiyorsunuz?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:163
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
 msgid "with bonus"
+msgstr ""
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
 msgstr ""
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:111

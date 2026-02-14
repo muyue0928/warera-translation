@@ -1170,6 +1170,7 @@ msgstr "Pattern app"
 msgid "Application fee"
 msgstr "Quota di richiesta"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "Fai richiesta"
@@ -2592,7 +2593,7 @@ msgstr "Equipaggiamenti"
 msgid "Error"
 msgstr "Errore"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:91
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
 msgid "Estimated benefit per"
 msgstr ""
 
@@ -2692,6 +2693,10 @@ msgstr "Feed"
 msgid "Fidelity Bonus"
 msgstr "Bonus fedeltà"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "Abilità di combattimento"
@@ -2765,7 +2770,7 @@ msgstr "Trova un altro lavoro"
 msgid "Fine (remove money)"
 msgstr "Multa (rimuovi denaro)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:201
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Licenzia"
 
@@ -3237,7 +3242,7 @@ msgstr "Continua a inseguire quel Mitico"
 msgid "Keep fighting!"
 msgstr "Continua a combattere!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:188
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "Resta nell'azienda attuale"
 
@@ -3808,7 +3813,7 @@ msgstr "Nome"
 msgid "Need a job?"
 msgstr "Ti serve un lavoro?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:151
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
 msgid "Net benefit:"
 msgstr ""
 
@@ -4550,7 +4555,7 @@ msgstr "Produzione"
 msgid "Production bonus"
 msgstr "Bonus produzione"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:144
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
 msgid "Production bonus:"
 msgstr ""
 
@@ -4621,7 +4626,7 @@ msgstr "Proponi di comprare una regione"
 msgid "Propose to buy a region from another country"
 msgstr "Proponi di comprare una regione da un altro paese"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:210
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "Proponi riduzione salariale"
 
@@ -4660,7 +4665,7 @@ msgstr "Classifiche"
 msgid "Ranks"
 msgstr "Gradi"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:116
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
 msgid "Raw materials:"
 msgstr ""
 
@@ -5197,7 +5202,7 @@ msgstr "Ordine di vendita eseguito!"
 msgid "Sell orders"
 msgstr "Ordini di vendita"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:99
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
 msgid "Sell price:"
 msgstr ""
 
@@ -5855,7 +5860,7 @@ msgstr "Transazioni"
 msgid "Transfer money"
 msgstr "Trasferisci denaro"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:186
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "Trasferisci all'azienda (opzionale)"
 
@@ -5975,7 +5980,7 @@ msgstr "Aggiorna info"
 #~ msgid "Update order"
 #~ msgstr "Aggiorna ordine"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:212
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "Aggiorna lavoratore"
 
@@ -6239,7 +6244,7 @@ msgstr "Salario"
 msgid "Wage changed"
 msgstr "Salario modificato"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:107
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
 msgid "Wage cost ({productionPoints} pts):"
 msgstr ""
 
@@ -6346,8 +6351,12 @@ msgstr "Produzione totale"
 msgid "Why do you want to propose this law?"
 msgstr "Perché vuoi proporre questa legge?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:163
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
 msgid "with bonus"
+msgstr ""
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
 msgstr ""
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
