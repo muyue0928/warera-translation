@@ -1251,11 +1251,7 @@ msgstr "En azından denedin"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Süre sonunda <0>{actualTickPoints}</0> en çok hasarı veren tarafa atanacak."
 
-#. js-lingui-explicit-id
 #: src/components/_military/hit/HitButton.tsx:286
-msgid "attackButtonAttacker"
-msgstr ""
-
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"

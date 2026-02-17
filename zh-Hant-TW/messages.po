@@ -1251,11 +1251,7 @@ msgstr "至少你試過了"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
-#. js-lingui-explicit-id
 #: src/components/_military/hit/HitButton.tsx:286
-msgid "attackButtonAttacker"
-msgstr ""
-
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
