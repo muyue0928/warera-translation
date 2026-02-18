@@ -165,6 +165,10 @@ msgstr "<0/> atstāja komentāru zem tava raksta <1/>"
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> iekaroja reģionu <1/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:74
+msgid "<0/> created the conversation"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
 msgstr "<0/> aizstāvēja <1/>"
@@ -180,7 +184,7 @@ msgstr "<0/> ziedoja <2/> <1>{0}</1>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> atlaida tevi no darba uzņēmumā <1>{0}</1> ar algu <2/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+#: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
 msgstr ""
 
@@ -230,7 +234,7 @@ msgstr "<0/> uzbrūk tavai valstij reģionā <1/>"
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> saceļas reģionā <1/> pret tavu valsti"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:15
+#: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
 msgstr ""
 
@@ -243,7 +247,7 @@ msgstr "<0/> pievienojās spēlei, izmantojot tavu ieteikuma saiti!"
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> pievienojās tavam uzņēmumam <1/> par <2>{0}</2> algu"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+#: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
 msgstr ""
 
@@ -252,7 +256,7 @@ msgstr ""
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> pameta darbu tavā uzņēmumā {0}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:24
+#: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
 msgstr ""
 
@@ -305,6 +309,17 @@ msgstr "<0/> vēlas noslēgt mieru ar tavu valsti"
 #: src/components/_user/notification/notification.frontConfig.tsx:663
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> tika nominēts par <1>{0}</1>"
+
+#. placeholder {0}: data.roundNumber
+#: src/components/_political/message/systemMessage.frontConfig.tsx:55
+msgid "<0/> won round {0}"
+msgstr ""
+
+#. placeholder {0}: data.attackerWonRoundsCount
+#. placeholder {1}: data.defenderWonRoundsCount
+#: src/components/_political/message/systemMessage.frontConfig.tsx:64
+msgid "<0/> won the battle ({0}-{1})"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"

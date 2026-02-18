@@ -163,6 +163,10 @@ msgstr "<0/> a comentat la articolul tău <1/>"
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> a cucerit regiunea <1/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:74
+msgid "<0/> created the conversation"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
 msgstr "<0/> a apărat <1/>"
@@ -178,7 +182,7 @@ msgstr "<0/> a donat <1>{0}</1> către <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> te-a concediat de la locul tău de muncă de <1>{0}</1> în <2/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+#: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
 msgstr ""
 
@@ -228,7 +232,7 @@ msgstr "<0/> atacă țara ta în <1/>"
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> se revoltă împotriva țării tale în <1/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:15
+#: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
 msgstr ""
 
@@ -241,7 +245,7 @@ msgstr "<0/> s-a alăturat jocului la recomandarea ta!"
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> s-a alăturat companiei tale <1/> pentru un salariu de <2>{0}</2>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+#: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
 msgstr ""
 
@@ -250,7 +254,7 @@ msgstr ""
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> a demisionat din compania ta {0}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:24
+#: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
 msgstr ""
 
@@ -303,6 +307,17 @@ msgstr "<0/> propune un tratat de pace"
 #: src/components/_user/notification/notification.frontConfig.tsx:663
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> a fost nominalizat ca <1>{0}</1>"
+
+#. placeholder {0}: data.roundNumber
+#: src/components/_political/message/systemMessage.frontConfig.tsx:55
+msgid "<0/> won round {0}"
+msgstr ""
+
+#. placeholder {0}: data.attackerWonRoundsCount
+#. placeholder {1}: data.defenderWonRoundsCount
+#: src/components/_political/message/systemMessage.frontConfig.tsx:64
+msgid "<0/> won the battle ({0}-{1})"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"
