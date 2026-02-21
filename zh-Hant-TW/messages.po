@@ -40,7 +40,7 @@ msgstr "{0} & 盟友"
 #. placeholder {0}: lawConfig.minActiveCitizen
 #: src/components/_political/law/Law.tsx:120
 msgid "{0} active citizens required"
-msgstr ""
+msgstr "需要 {0} 位活躍公民"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:606
@@ -50,7 +50,7 @@ msgstr "{0} 購買了你的物品"
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:144
 msgid "{0} days cooldown"
-msgstr ""
+msgstr "{0} 日冷卻"
 
 #. placeholder {0}: user.data.leveling.freeReset
 #: src/pages/user/[userId]/skills.tsx:169
@@ -102,19 +102,19 @@ msgstr "投資的 {0}%"
 
 #: src/components/_military/battle/BattleName.tsx:141
 msgid "{battleIcon}Resistance battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon} 在 {regionName} 的抵抗戰鬥 {score}"
 
 #: src/components/_military/battle/BattleName.tsx:146
 msgid "{battleIcon}Revolution battle {score}"
-msgstr ""
+msgstr "{battleIcon} 革命戰鬥 {score}"
 
 #: src/components/_military/battle/BattleName.tsx:151
 msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
-msgstr ""
+msgstr "{battleIcon} 錦標賽戰鬥 {tournamentName} {score}"
 
 #: src/components/_military/battle/BattleName.tsx:136
 msgid "{battleIcon}War battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon} 在 {regionName} 的戰鬥 {score}"
 
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
@@ -135,7 +135,7 @@ msgstr "{score}/{0} 回合"
 
 #: src/components/_other/shop/SkinPackModal.tsx:214
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
-msgstr ""
+msgstr "*如果用戶已經擁有一些造型包中的造型，價格會減少"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:143
 msgid "*May burn"
@@ -167,7 +167,7 @@ msgstr "<0/> 成功征服了 <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:74
 msgid "<0/> created the conversation"
-msgstr ""
+msgstr "<0/> 創建了對話"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
@@ -186,7 +186,7 @@ msgstr "<0/> 將你從薪資 <1>{0}</1> 的 <2/> 開除了"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
-msgstr ""
+msgstr "<0/> 贈送了一個訂閱給 <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
@@ -199,12 +199,12 @@ msgstr "<0/> 贈送給你一個橫幅 \"{0}\" ！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1696
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
-msgstr ""
+msgstr "<0/> 贈送給你造型 \"{skinTitle}\"！"
 
 #. placeholder {0}: data.skinPackTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1759
 msgid "<0/> gifted you the skin pack \"{0}\"!"
-msgstr ""
+msgstr "<0/> 贈送給你造型包 \"{0}\"！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1425
 msgid "<0/> has been created, it gonna start soon!"
@@ -216,7 +216,7 @@ msgstr "<0/> 被選為 <1/> 的總統"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1077
 msgid "<0/> has started a revolution in <1/>"
-msgstr ""
+msgstr "<0/> 已經開始了在 <1/> 的革命"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1438
 msgid "<0/> has started! Let the battles begin!"
@@ -236,7 +236,7 @@ msgstr "<0/> 正在 <1/> 反抗你的國家"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
-msgstr ""
+msgstr "<0/> 加入了對話"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:686
 msgid "<0/> joined the game with your referral link!"
@@ -249,7 +249,7 @@ msgstr "<0/> 加入了你的公司 <1/>，薪資為 <2>{0}</2>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
-msgstr ""
+msgstr "<0/> 將 <1/> 踢出對話"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
@@ -258,7 +258,7 @@ msgstr "<0/> 離開了他在 {0} 的工作"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
-msgstr ""
+msgstr "<0/> 離開了對話"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
@@ -313,17 +313,17 @@ msgstr "<0/> 被任命為 <1>{0}</1>"
 #. placeholder {0}: data.roundNumber
 #: src/components/_political/message/systemMessage.frontConfig.tsx:55
 msgid "<0/> won round {0}"
-msgstr ""
+msgstr "<0/> 贏得了回合 {0}"
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
 #: src/components/_political/message/systemMessage.frontConfig.tsx:64
 msgid "<0/> won the battle ({0}-{1})"
-msgstr ""
+msgstr "<0/> 贏得了回合 ({0}-{1})"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"
-msgstr ""
+msgstr "<0/> 贏得了 <1/> 的初選且可以參選總統"
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:781
@@ -409,7 +409,7 @@ msgstr "<0>{0}</0> 來自於 <1>抵抗度</1>"
 #. placeholder {0}: region.ethicDepositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
-msgstr ""
+msgstr "<0>{0}</0> 來自於農業主義礦藏加成。"
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:75
@@ -419,32 +419,32 @@ msgstr "<0>{0}</0> 來自於與 <1/> 聯盟"
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
 msgid "<0>{0}</0> from deposit resources."
-msgstr ""
+msgstr "<0>{0}</0> 來自於礦藏。"
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:242
 msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
-msgstr ""
+msgstr "<0>{0}</0> 來自於親外主義 (為盟友戰鬥)"
 
 #. placeholder {0}: sideBonus.patrioticBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:65
 msgid "<0>{0}</0> from fighting for your country"
-msgstr ""
+msgstr "<0>{0}</0> 來自於為你的國家戰鬥"
 
 #. placeholder {0}: region.ethicSpecializationBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
-msgstr ""
+msgstr "<0>{0}</0> 來自於工業主義特產加成。"
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:252
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
-msgstr ""
+msgstr "<0>{0}</0> 來自於孤立主義 (與宿敵戰鬥)"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:222
 msgid "<0>{0}</0> from Militarist ethics (attacking)"
-msgstr ""
+msgstr "<0>{0}</0> 來自於軍國主義 (攻擊)"
 
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:97
@@ -454,12 +454,12 @@ msgstr "<0>{0}</0> 來自於 <1/> 的命令"
 #. placeholder {0}: sideBonus.pacifismBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:232
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
-msgstr ""
+msgstr "<0>{0}</0> 來自於和平主義 (防禦)"
 
 #. placeholder {0}: region.strategicBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
 msgid "<0>{0}</0> from strategic resources production bonus."
-msgstr ""
+msgstr "<0>{0}</0> 來自於戰略資源生產加成。"
 
 #. placeholder {0}: gameConfig.battle.pointsToWinRound
 #: src/components/_common/RoundPoints.tsx:17
@@ -477,11 +477,11 @@ msgstr "<0>{depositBonus}</0> 來自於 <1/> 的礦藏。"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
-msgstr ""
+msgstr "<0>{ethicDepositBonus}</0> 來自於 <1/> 的農業主義礦藏加成。"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
-msgstr ""
+msgstr "<0>{ethicSpecializationBonus}</0> 來自於工業主義特產加成。"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -525,7 +525,7 @@ msgstr "<0>由員工工作以及自動化機械產生的<1>生產點數</1>填�
 #. placeholder {7}: gameConfig?.unrest.contributionCooldownAfterRevolutionHours
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> or <4>{1}</4> to add <5>{2}</5> to the bar. Unrest decays daily by <6>{3}-{4}%</6>.<7/><8/>When the bar is full, any party can vote via motion to start a <9>Civil war</9> (cost: <10>development × 10</10>, cooldown: {5}h). The battle takes place in the capital region, and <11>only citizens</11> can fight.<12/><13/>If revolutionaries win:<14/>- Government is impeached<15/>- Borders are opened for {6} days<16/>- Presidential elections begin<17/><18/>After a revolution, contributions are disabled for {7}h."
-msgstr ""
+msgstr "<0>動盪值</0> 代表國家內部緊張度。<1/><2/>公民可以透過花費 <3>{0}</3> 或 <4>{1}</4> 貢獻 <5>{2}</5>動盪值。動盪值將每日自然減少 <6>{3}-{4}%</6>。<7/><8/>當動盪值滿，任何政黨可透過提案投票來開始<9>內戰</9> (花費: <10>發展度 × 10</10>, 冷卻：{5}h). 戰鬥會在首都，且<11>只有公民</11>可以參與。<12/><13/>如果革命者們贏了：<14/>- 政府會被彈劾<15/>- 邊境將開放 {6} 日<16/>- 總統選舉開始<17/><18/>革命過後, 貢獻將會被停用 {7}小時。"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -947,7 +947,7 @@ msgstr "已通過"
 
 #: src/components/_military/battle/BattleHeader.tsx:161
 msgid "Access war"
-msgstr ""
+msgstr "訪問戰爭"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/components/_user/user/UserHeader.tsx:162
@@ -998,7 +998,7 @@ msgstr "新增用戶"
 #: src/components/_political/law/Law.tsx:87
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
 msgid "Additional cost"
-msgstr ""
+msgstr "額外花費"
 
 #: src/components/_layout/LayoutRightIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:65
@@ -1040,7 +1040,7 @@ msgstr "高級褲子"
 #: src/components/_political/party/party.frontConfig.tsx:297
 #: src/components/_political/party/party.frontConfig.tsx:314
 msgid "Agrarian"
-msgstr ""
+msgstr "農業主義"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:132
 #: src/components/_military/battle/EndedBattlesList.tsx:78
@@ -1053,21 +1053,21 @@ msgstr "全部分類"
 
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "All citizenship requests are accepted automatically."
-msgstr ""
+msgstr "所有國籍申請將會被自動同意"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-1'].depositBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-2'].depositBonus)
 #: src/components/_political/party/party.frontConfig.tsx:280
 #: src/components/_political/party/party.frontConfig.tsx:301
 msgid "All coca, grain, livestock and fish deposits in your borders give <0>+{0}</0> more production bonus."
-msgstr ""
+msgstr "所有神秘的葉子、穀物、牲畜和魚的礦藏在你國境中皆會被額外給予 <0>+{0}</0> 生產加成。"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[1].specializationBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[2].specializationBonus)
 #: src/components/_political/party/party.frontConfig.tsx:323
 #: src/components/_political/party/party.frontConfig.tsx:337
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
-msgstr ""
+msgstr "所有在你國境內生產子彈或建築用特產的公司皆會獲得 <0>+{0}</0> 生產加成。"
 
 #: src/components/_political/event/EventList.tsx:134
 msgid "All event types"
@@ -1080,15 +1080,15 @@ msgstr "全部語言"
 #. placeholder {0}: ethicsBonuses.imperialism[2].lawCostMultiplier
 #: src/components/_political/party/party.frontConfig.tsx:263
 msgid "All law enactment costs are multiplied by {0}."
-msgstr ""
+msgstr "所有法規頒布花費將乘以 {0}"
 
 #: src/pages/party/[partyId]/index.tsx:112
 msgid "All Parties"
-msgstr ""
+msgstr "所有政黨"
 
 #: src/components/_other/shop/SkinPackModal.tsx:285
 msgid "All skins owned"
-msgstr ""
+msgstr "所有擁有造型"
 
 #: src/components/_economy/transaction/TransactionList.tsx:70
 msgid "All types"
@@ -1317,11 +1317,11 @@ msgstr "徽章"
 
 #: src/components/_political/party/party.frontConfig.tsx:352
 msgid "Balanced"
-msgstr ""
+msgstr "平衡"
 
 #: src/components/_political/party/party.frontConfig.tsx:353
 msgid "Balanced - No modifiers"
-msgstr ""
+msgstr "平衡 - 無調整"
 
 #: src/components/_user/user/UserDropdown.tsx:275
 msgid "Ban user"
@@ -1337,7 +1337,7 @@ msgstr "已停權"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1623
 msgid "Banner Accepted!"
-msgstr ""
+msgstr "橫幅已被接受！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1592
 msgid "Banner gift received"
@@ -1349,7 +1349,7 @@ msgstr "已送出橫幅禮物"
 
 #: src/components/_other/shop/ShopHeader.tsx:36
 msgid "Banners"
-msgstr ""
+msgstr "橫幅"
 
 #: src/components/_user/user/UserHeader.tsx:180
 #: src/components/_user/user/UserHeader.tsx:221
@@ -1421,7 +1421,7 @@ msgstr "戰鬥獲勝"
 
 #: src/components/_political/election/CandidateFormModal.tsx:55
 msgid "Become a Candidate"
-msgstr ""
+msgstr "成為一位參選人"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
@@ -1467,7 +1467,7 @@ msgstr "旅長"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
-msgstr ""
+msgstr "瀏覽組合"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:856
 msgid "Buff ended"
@@ -1520,11 +1520,11 @@ msgstr "軍校學員"
 
 #: src/components/_political/election/CandidateFormModal.tsx:66
 msgid "Campaign Article Link (optional)"
-msgstr ""
+msgstr "參選文章連結 (選填)"
 
 #: src/components/_political/election/CandidateFormModal.tsx:83
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:150
 msgid "Cancel at any time"
@@ -1532,23 +1532,23 @@ msgstr "可隨時取消"
 
 #: src/components/_political/election/CandidateFormModal.tsx:86
 msgid "Candidate"
-msgstr ""
+msgstr "參選"
 
 #: src/components/_political/party/party.frontConfig.tsx:262
 msgid "Cannot have a vice president or ministers."
-msgstr ""
+msgstr "無法有副總統或政府官員。"
 
 #: src/components/_political/party/party.frontConfig.tsx:134
 msgid "Cannot have allies."
-msgstr ""
+msgstr "無法有盟友。"
 
 #: src/components/_political/party/party.frontConfig.tsx:181
 msgid "Cannot have sworn enemies."
-msgstr ""
+msgstr "無法有宿敵。"
 
 #: src/components/_political/party/party.frontConfig.tsx:291
 msgid "Cannot pick a specialization good / no benefit from specialization."
-msgstr ""
+msgstr "無法挑選一個特產 / 沒有來自於特產的優勢"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:91
 msgid "Captain"
@@ -1580,7 +1580,7 @@ msgstr "箱子內含隨機物品，點擊來打開它！"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Catapult"
-msgstr ""
+msgstr "投石機"
 
 #: src/components/_user/user/skills.frontConfig.tsx:136
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
@@ -1664,28 +1664,28 @@ msgstr "公民為盟友或宿敵戰鬥會獲得加成。"
 #: src/components/_political/party/party.frontConfig.tsx:86
 #: src/components/_political/party/party.frontConfig.tsx:100
 msgid "Citizens get an additional <0>{0}</0> attacking battle bonus."
-msgstr ""
+msgstr "公民會獲得額外的攻擊加成 <0>{0}</0>。"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-1'].enemyBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-2'].enemyBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:127
 #: src/components/_political/party/party.frontConfig.tsx:142
 msgid "Citizens get an additional <0>{0}</0> battle bonus against sworn enemies."
-msgstr ""
+msgstr "公民會在對抗宿敵時獲得額外的攻擊加成 <0>{0}</0>。"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism[1].allyBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism[2].allyBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:160
 #: src/components/_political/party/party.frontConfig.tsx:174
 msgid "Citizens get an additional <0>{0}</0> battle bonus fighting for allies."
-msgstr ""
+msgstr "公民會在為盟友戰鬥時獲得額外的攻擊加成 <0>{0}</0>。"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-1'].defenseBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-2'].defenseBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:51
 #: src/components/_political/party/party.frontConfig.tsx:68
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
-msgstr ""
+msgstr "公民會在防禦性戰鬥中獲得額外的攻擊加成 <0>{0}</0>。"
 
 #: src/components/_political/country/CountryHeader.tsx:107
 msgid "Citizenship"
@@ -1697,7 +1697,7 @@ msgstr "公民身分申請"
 
 #: src/components/_military/battle/BattleSystem.tsx:255
 msgid "Civil war"
-msgstr ""
+msgstr "內戰"
 
 #: src/components/_user/mission/MissionItem.tsx:234
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:128
@@ -1743,11 +1743,11 @@ msgstr "點擊以揭曉裡面是什麼。你可能會獲得些有價值的物品
 
 #: src/components/_political/law/LawTypeSelect.tsx:57
 msgid "Click to select law"
-msgstr ""
+msgstr "點擊以選擇法案"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:50
 msgid "Click to select motion"
-msgstr ""
+msgstr "點擊以選擇提案"
 
 #: src/components/_layout/LayoutMapOptions.tsx:201
 msgid "Climate"
@@ -1823,7 +1823,7 @@ msgstr "完成每日任務賺取經驗值來讓等級增加的更快。點擊以
 
 #: src/utils/translations.tsx:29
 msgid "Concrete"
-msgstr "混擬土"
+msgstr "混凝土"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:41
 msgid "Congrats"
@@ -1841,7 +1841,7 @@ msgstr "恭喜！你當選 {0} 的國會議員！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:316
 msgid "Congratulations! You have been elected as the new leader of <0/>"
-msgstr ""
+msgstr "恭喜！你當選 <0/> 的黨主席！"
 
 #. placeholder {0}: data.countryName
 #: src/components/_user/notification/notification.frontConfig.tsx:207
@@ -1850,7 +1850,7 @@ msgstr "恭喜！你當選 {0} 的總統！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:321
 msgid "Congratulations! You have been elected to the council of <0/>"
-msgstr ""
+msgstr "恭喜！你當選 <0/> 的中常委！"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
 #: src/components/_user/notification/notification.frontConfig.tsx:1331
@@ -1872,7 +1872,7 @@ msgstr "恭喜！你的隊伍 <0/> 贏得了錦標賽 <1/> ！"
 
 #: src/components/_political/election/election.frontConfig.tsx:28
 msgid "Congress election"
-msgstr ""
+msgstr "國會選舉"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:142
 msgid "Congress election candidacy is now open in <0/>"
@@ -1905,7 +1905,7 @@ msgstr "國會選舉"
 #. placeholder {0}: ethicsBonuses.imperialism['-2'].minCongressSeats
 #: src/components/_political/party/party.frontConfig.tsx:204
 msgid "Congress has a minimum of <0>{0} seats</0>."
-msgstr ""
+msgstr "國會有最小席次 <0>{0} 席</0>。"
 
 #: src/pages/country/[countryId]/government.tsx:64
 msgid "Congress members"
@@ -1984,7 +1984,7 @@ msgstr "費用"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
 msgid "Council member to remove"
-msgstr ""
+msgstr "要移除的中常委"
 
 #: src/components/_layout/LoadingScreenContent.tsx:19
 msgid "countries"
@@ -2041,7 +2041,7 @@ msgstr "創建一間新公司"
 #: src/components/_political/party/PartyFormModal.tsx:80
 #: src/components/_political/party/PartyList.tsx:88
 msgid "Create a party"
-msgstr ""
+msgstr "創建一個政黨"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:240
 msgid "Create API Token"
@@ -2049,7 +2049,7 @@ msgstr "創建 API token"
 
 #: src/components/_political/party/PartyFormModal.tsx:130
 msgid "Create party"
-msgstr ""
+msgstr "創建政黨"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:113
 msgid "Create Token"
@@ -2075,7 +2075,7 @@ msgstr "暴擊"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:86
 msgid "Crossbow"
-msgstr ""
+msgstr "十字弓"
 
 #: src/pages/user/[userId]/index.tsx:162
 msgid "Current Military Unit"
@@ -2271,18 +2271,18 @@ msgstr "礦藏將會耗盡於"
 
 #: src/components/_political/party/party.frontConfig.tsx:344
 msgid "Deposits cannot spawn within your borders."
-msgstr ""
+msgstr "礦藏無法在你國境中生成"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:59
 #: src/components/_political/party/PartyFormModal.tsx:103
 msgid "Describe your party's goals and values"
-msgstr ""
+msgstr "說明你的政黨的目標與價值"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:58
 #: src/components/_political/party/PartyFormModal.tsx:104
 #: src/pages/party/[partyId]/index.tsx:41
 msgid "Description"
-msgstr ""
+msgstr "說明"
 
 #: src/components/_user/user/UserDropdown.tsx:167
 msgid "Description removed"
@@ -2290,7 +2290,7 @@ msgstr "描述已移除"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:34
 msgid "Description updated!"
-msgstr ""
+msgstr "說明已更新！"
 
 #: src/components/_user/user/UserDropdown.tsx:330
 msgid "Destroy item from inventory"
@@ -2311,7 +2311,7 @@ msgstr "外交"
 #: src/components/_political/party/party.frontConfig.tsx:156
 #: src/components/_political/party/party.frontConfig.tsx:184
 msgid "Diplomatic"
-msgstr ""
+msgstr "親外主義"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:189
 msgid "Disable company"
@@ -2319,7 +2319,7 @@ msgstr "停用公司"
 
 #: src/components/_layout/LayoutMapOptions.tsx:290
 msgid "Disable transparency"
-msgstr ""
+msgstr "停用透明"
 
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
@@ -2358,7 +2358,7 @@ msgstr "閃避<0>{count}</0>次攻擊"
 
 #: src/components/_political/party/party.frontConfig.tsx:58
 msgid "Does not gain development from non-core regions."
-msgstr ""
+msgstr "無法獲得來自非核心地區的發展度"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
 msgid "Don't forget to drink water"
@@ -2386,14 +2386,14 @@ msgstr "捐款"
 
 #: src/components/_economy/donation/DonationList.tsx:60
 msgid "Donation Summary"
-msgstr ""
+msgstr "捐款概要"
 
 #: src/components/_political/country/CountryHeader.tsx:82
 #: src/pages/country/[countryId]/donations.tsx:17
 #: src/pages/mu/[muId]/donations.tsx:17
 #: src/pages/party/[partyId]/donations.tsx:17
 msgid "Donations"
-msgstr ""
+msgstr "捐款"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:459
 msgid "Double XP Ended"
@@ -2443,7 +2443,7 @@ msgstr "編輯描述"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:54
 msgid "Edit Description"
-msgstr ""
+msgstr "編輯描述"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
@@ -2558,23 +2558,23 @@ msgstr "錯誤"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:103
 msgid "Estimated benefit per"
-msgstr ""
+msgstr "預估收益每個"
 
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
-msgstr ""
+msgstr "傳統"
 
 #: src/pages/party/[partyId]/index.tsx:51
 msgid "Ethics are bonuses from the party, applied when the president is a member of this party."
-msgstr ""
+msgstr "傳統是來自政黨的加成，當總統是政黨中的成員時啟用。"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:83
 msgid "Ethics motions"
-msgstr ""
+msgstr "傳統提案"
 
 #: src/components/_political/government/PoliticalEthics.tsx:495
 msgid "Ethics Points:"
-msgstr ""
+msgstr "傳統點數："
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
@@ -2612,35 +2612,35 @@ msgstr "家庭群組"
 
 #: src/components/_political/party/party.frontConfig.tsx:276
 msgid "Fanatic Agrarian"
-msgstr ""
+msgstr "極端農業主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:170
 msgid "Fanatic Diplomatic"
-msgstr ""
+msgstr "極端親外主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Imperialist"
-msgstr ""
+msgstr "極端帝國主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:333
 msgid "Fanatic Industrialist"
-msgstr ""
+msgstr "極端工業主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:123
 msgid "Fanatic Isolationist"
-msgstr ""
+msgstr "極端孤立主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:96
 msgid "Fanatic Militarist"
-msgstr ""
+msgstr "極端軍國主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:47
 msgid "Fanatic Pacifist"
-msgstr ""
+msgstr "極端和平主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:191
 msgid "Fanatic Republican"
-msgstr ""
+msgstr "極端共和主義"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:87
 #: src/components/_military/battle/ActiveBattlesList.tsx:167
@@ -2658,11 +2658,11 @@ msgstr "忠誠度加成"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
-msgstr ""
+msgstr "忠誠度加成："
 
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
-msgstr "打架技能"
+msgstr "戰鬥技能"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Fight!"
@@ -2682,27 +2682,27 @@ msgstr "終於高於平均了！"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:128
 msgid "Finance a resistance battle in <0/>"
-msgstr ""
+msgstr "資助一個在 <0/> 的抵抗戰鬥"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
 msgid "Finance a resistance battle in an occupied region of your country"
-msgstr ""
+msgstr "資助一個在你的國家中被佔領地區的抵抗戰鬥"
 
 #: src/components/_political/law/law.frontConfig.tsx:425
 msgid "Finance a resistance to liberate an occupied region"
-msgstr ""
+msgstr "資助一個抵抗戰鬥來解放一個被佔領地區"
 
 #: src/components/_political/law/law.frontConfig.tsx:430
 msgid "Finance a revolt to liberate <0/>"
-msgstr ""
+msgstr "資助一個動亂來解放 <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:424
 msgid "Finance foreign resistance"
-msgstr ""
+msgstr "資助外國反抗軍"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
 msgid "Finance local resistance"
-msgstr ""
+msgstr "資助在地反抗軍"
 
 #: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
@@ -2760,11 +2760,11 @@ msgstr "旗幟"
 
 #: src/components/_layout/LayoutMapOptions.tsx:339
 msgid "Font"
-msgstr ""
+msgstr "字體"
 
 #: src/components/_layout/LayoutMapOptions.tsx:348
 msgid "Font size"
-msgstr ""
+msgstr "字體大小"
 
 #: src/components/_user/user/UserDropdown.tsx:207
 msgid "Font style"
@@ -2773,7 +2773,7 @@ msgstr "字體"
 #. placeholder {0}: ts[country.specializedItem]
 #: src/pages/country/[countryId]/index.tsx:416
 msgid "for companies producing <0>{0}</0> located in <1/>."
-msgstr ""
+msgstr "給在 <1/> 生產 <0>{0}</0> 的公司。"
 
 #: src/pages/shop/index.tsx:129
 msgid "Free daily reward"
@@ -2817,7 +2817,7 @@ msgstr "產生任務"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:94
 msgid "Get multiple skins at once with a 30% discount!"
-msgstr ""
+msgstr "一次獲得多款造型享有30%折扣"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:220
 msgid "Get supporter plan"
@@ -2829,7 +2829,7 @@ msgstr "來自 Vatou 的禮物，別告訴任何人"
 
 #: src/components/_other/shop/SkinPackModal.tsx:98
 msgid "Gift sent! Skin pack unlocked for recipient!"
-msgstr ""
+msgstr "禮物已送出！造型包已為接收者解鎖！"
 
 #: src/pages/shop/index.tsx:55
 msgid "Gift sent! Thanks for supporting the game <3"
@@ -2841,7 +2841,7 @@ msgstr "贈送支持者計畫"
 
 #: src/components/_other/shop/SkinPackModal.tsx:225
 msgid "Gift this pack to someone"
-msgstr ""
+msgstr "贈送這個組合包給某人"
 
 #: src/pages/shop/index.tsx:101
 msgid "gifted"
@@ -3019,7 +3019,7 @@ msgstr "彈劾國會議員"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:59
 msgid "Impeach party leader"
-msgstr ""
+msgstr "彈劾黨主席"
 
 #: src/components/_political/law/law.frontConfig.tsx:139
 msgid "Impeach president"
@@ -3032,12 +3032,12 @@ msgstr "彈劾現任總統"
 
 #: src/components/_political/party/party.frontConfig.tsx:234
 msgid "Imperialism vs Republicanism"
-msgstr ""
+msgstr "帝國主義 vs 共和主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:237
 #: src/components/_political/party/party.frontConfig.tsx:269
 msgid "Imperialist"
-msgstr ""
+msgstr "帝國主義"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:52
 msgid "Impressive"
@@ -3060,14 +3060,14 @@ msgstr "來自在 <1/> <0>發展度</0>的收入"
 #: src/components/_political/party/party.frontConfig.tsx:195
 #: src/components/_political/party/party.frontConfig.tsx:221
 msgid "Income from development increases by <0>{0}</0>."
-msgstr ""
+msgstr "來自於發展度的收入增加 <0>{0}</0>。"
 
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[1].taxIncomeBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[2].taxIncomeBonus)
 #: src/components/_political/party/party.frontConfig.tsx:241
 #: src/components/_political/party/party.frontConfig.tsx:255
 msgid "Income from taxes increases by <0>{0}</0>."
-msgstr ""
+msgstr "來自於稅收的收入增加 <0>{0}</0>。"
 
 #: src/components/_political/country/CountryTaxes.tsx:21
 #: src/components/_political/law/LawFormModal.tsx:207
@@ -3081,12 +3081,12 @@ msgstr "所得稅"
 
 #: src/components/_political/party/party.frontConfig.tsx:316
 msgid "Industrialism vs Agrarianism"
-msgstr ""
+msgstr "工業主義 vs 農業主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:319
 #: src/components/_political/party/party.frontConfig.tsx:347
 msgid "Industrialist"
-msgstr ""
+msgstr "工業主義"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -3112,12 +3112,12 @@ msgstr "鐵"
 
 #: src/components/_political/party/party.frontConfig.tsx:153
 msgid "Isolationism vs Diplomacy"
-msgstr ""
+msgstr "孤立主義 vs 親外主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:138
 #: src/components/_political/party/party.frontConfig.tsx:151
 msgid "Isolationist"
-msgstr ""
+msgstr "孤立主義"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:9
 msgid "It only gets better… maybe"
@@ -3232,19 +3232,19 @@ msgstr "晚點"
 
 #: src/pages/shop/index.tsx:149
 msgid "Latest Pack"
-msgstr ""
+msgstr "最新的組合包"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:50
 msgid "Launch council election"
-msgstr ""
+msgstr "開始中常委選舉"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:70
 msgid "Launch leader election"
-msgstr ""
+msgstr "開始黨主席選舉"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:103
 msgid "Launch primary election"
-msgstr ""
+msgstr "開始初選"
 
 #: src/components/_political/law/Law.tsx:57
 msgid "Law failed"
@@ -3381,7 +3381,7 @@ msgstr "載入更多軍團"
 
 #: src/components/_political/party/PartyList.tsx:122
 msgid "Load more parties"
-msgstr ""
+msgstr "載入更多政黨"
 
 #: src/components/_layout/LoadingScreenContent.tsx:34
 msgid "Loading {status}..."
@@ -3401,7 +3401,7 @@ msgstr "登出"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:83
 msgid "Long Sword"
-msgstr ""
+msgstr "長劍"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:302
 msgid "Loot <0>{count}</0> from battles"
@@ -3431,7 +3431,7 @@ msgstr "獲得了錢"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
-msgstr ""
+msgstr "愛的紙飛機"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:101
 msgid "Lt. Colonel"
@@ -3498,47 +3498,47 @@ msgstr "或許下次吧 ^^"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:13
 msgid "Medieval"
-msgstr ""
+msgstr "中世紀"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:65
 msgid "Medieval Boots"
-msgstr ""
+msgstr "中世紀靴子"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:59
 msgid "Medieval Chest"
-msgstr ""
+msgstr "中世紀胸甲"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:68
 msgid "Medieval Gloves"
-msgstr ""
+msgstr "中世紀手套"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:56
 msgid "Medieval Helmet"
-msgstr ""
+msgstr "中世紀頭盔"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:74
 msgid "Medieval Iron Arrow"
-msgstr ""
+msgstr "中世紀鐵箭"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:12
 msgid "Medieval Pack"
-msgstr ""
+msgstr "中世紀包"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:62
 msgid "Medieval Pants"
-msgstr ""
+msgstr "中世紀褲子"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:80
 msgid "Medieval Spear"
-msgstr ""
+msgstr "中世紀矛"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:77
 msgid "Medieval Steel Arrow"
-msgstr ""
+msgstr "中世紀鋼箭"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:71
 msgid "Medieval Stone Arrow"
-msgstr ""
+msgstr "中世紀石箭"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
@@ -3546,12 +3546,12 @@ msgstr "在聊天室中與其他玩家們相會，別害羞，介紹一下你自
 
 #: src/pages/party/[partyId]/applications.tsx:39
 msgid "Member Applications"
-msgstr ""
+msgstr "成員申請"
 
 #: src/pages/party/[partyId]/index.tsx:75
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
-msgstr ""
+msgstr "成員"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1304
 msgid "Mentioned in message"
@@ -3559,7 +3559,7 @@ msgstr "在訊息中提及"
 
 #: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
-msgstr ""
+msgstr "訊息 (選填)"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:962
 msgid "Message liked"
@@ -3567,12 +3567,12 @@ msgstr "已按讚訊息"
 
 #: src/components/_political/party/party.frontConfig.tsx:79
 msgid "Militarism vs Pacifism"
-msgstr ""
+msgstr "軍國主義 vs 和平主義"
 
 #: src/components/_political/party/party.frontConfig.tsx:82
 #: src/components/_political/party/party.frontConfig.tsx:116
 msgid "Militarist"
-msgstr ""
+msgstr "軍國主義"
 
 #: src/components/_political/law/LawTypeSelect.tsx:73
 msgid "Military laws"
@@ -3592,7 +3592,7 @@ msgstr "軍階"
 
 #: src/components/_layout/MoreButtonNav.tsx:150
 msgid "Military Unit"
-msgstr ""
+msgstr "軍團"
 
 #: src/components/_military/mu/MuFormModal.tsx:51
 msgid "Military unit created"
@@ -3604,7 +3604,7 @@ msgstr "軍團"
 
 #: src/components/_political/law/Law.tsx:118
 msgid "Min. active citizens"
-msgstr ""
+msgstr "最少活躍公民"
 
 #: src/components/_political/government/Government.tsx:68
 msgid "Minister of Defense"
@@ -3646,7 +3646,7 @@ msgstr "獲得的錢"
 
 #: src/components/_layout/MoreButtonNav.tsx:194
 msgid "More"
-msgstr ""
+msgstr "更多"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:147
 msgid "More premium features coming soon!"
@@ -3654,16 +3654,16 @@ msgstr "更多高級訂閱功能即將推出！"
 
 #: src/components/_political/partyMotion/PartyMotion.tsx:74
 msgid "Motion failed"
-msgstr ""
+msgstr "提案失敗"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
 msgid "Motion proposed"
-msgstr ""
+msgstr "提案已提出"
 
 #: src/pages/party/[partyId]/index.tsx:93
 #: src/pages/party/[partyId]/motions.tsx:19
 msgid "Motions"
-msgstr ""
+msgstr "提案"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:433
 msgid "Move a company to another region"
@@ -3762,7 +3762,7 @@ msgstr "需要一個工作？"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:173
 msgid "Net benefit:"
-msgstr ""
+msgstr "淨利潤："
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
@@ -3776,7 +3776,7 @@ msgstr "不要停止賭博"
 #: src/components/_other/shop/SkinPackItem.tsx:83
 #: src/components/_social/ArticleList.tsx:133
 msgid "New"
-msgstr ""
+msgstr "最新"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:122
 msgid "New API Token Created"
@@ -3796,7 +3796,7 @@ msgstr "新裝備"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
 msgid "New ethics configuration"
-msgstr ""
+msgstr "新的傳統配置"
 
 #: src/components/_economy/itemOffer/ItemOfferList.tsx:80
 msgid "New item offer"
@@ -3826,11 +3826,11 @@ msgstr "新名字"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:390
 msgid "New Party Application"
-msgstr ""
+msgstr "新政黨申請"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:333
 msgid "New Party Leader"
-msgstr ""
+msgstr "新黨主席"
 
 #: src/components/_political/event/EventList.tsx:66
 #: src/components/_user/notification/notification.frontConfig.tsx:223
@@ -3900,7 +3900,7 @@ msgstr "沒有進行中戰鬥"
 
 #: src/components/_political/government/PoliticalEthics.tsx:519
 msgid "No active ethics - Balanced"
-msgstr ""
+msgstr "無生效中傳統 - 平衡"
 
 #: src/pages/company/[companyId]/index.tsx:78
 msgid "No active job offer"
@@ -3932,7 +3932,7 @@ msgstr "沒有國會議員"
 
 #: src/components/_political/contribution/ContributionList.tsx:216
 msgid "No contributions yet"
-msgstr ""
+msgstr "尚無貢獻者"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:125
 msgid "No damages ranking yet."
@@ -3940,7 +3940,7 @@ msgstr "還沒有傷害排名"
 
 #: src/components/_economy/donation/DonationList.tsx:81
 msgid "No donations yet"
-msgstr ""
+msgstr "尚無捐款"
 
 #: src/pages/user/[userId]/bans.tsx:68
 msgid "No email found"
@@ -3952,7 +3952,7 @@ msgstr "還沒有優勢點排名。"
 
 #: src/components/_user/user/UserEquippedSkins.tsx:192
 msgid "No items equipped"
-msgstr ""
+msgstr "無裝備物品"
 
 #: src/components/_political/law/LawList.tsx:72
 msgid "No laws yet"
@@ -3972,7 +3972,7 @@ msgstr "還沒有金錢排名。"
 
 #: src/components/_political/partyMotion/PartyMotionList.tsx:62
 msgid "No motions yet"
-msgstr ""
+msgstr "尚無提案"
 
 #: src/components/_economy/itemOffer/ItemOfferList.tsx:87
 msgid "No offers found"
@@ -3984,7 +3984,7 @@ msgstr "還沒有人被指派。"
 
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
-msgstr ""
+msgstr "找不到政黨"
 
 #: src/components/_political/government/Government.tsx:55
 msgid "No president"
@@ -3992,7 +3992,7 @@ msgstr "沒有總統"
 
 #: src/pages/country/[countryId]/index.tsx:429
 msgid "No production bonus from resources. This country has no specialization."
-msgstr ""
+msgstr "沒有資源生產加成。這個國家沒有特產。"
 
 #: src/components/_user/referral/ReferralList.tsx:88
 msgid "No referrals yet"
@@ -4004,7 +4004,7 @@ msgstr "尚未設置推薦人"
 
 #: src/components/_user/user/UserEquippedSkins.tsx:113
 msgid "No skins equipped"
-msgstr ""
+msgstr "沒有裝備造型"
 
 #: src/pages/country/[countryId]/index.tsx:276
 msgid "No sworn enemy"
@@ -4057,11 +4057,11 @@ msgstr "這才像話！"
 
 #: src/components/_economy/donation/DonationList.tsx:71
 msgid "Number of Donors:"
-msgstr ""
+msgstr "捐款人數："
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
 msgid "Occupied region"
-msgstr ""
+msgstr "被佔領地區"
 
 #: src/utils/translations.tsx:75
 msgid "Oil"
@@ -4086,7 +4086,7 @@ msgstr "跟傳奇裝備只差一步之遙..."
 #: src/components/_political/party/party.frontConfig.tsx:287
 #: src/components/_political/party/party.frontConfig.tsx:308
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
-msgstr ""
+msgstr "只有加成和食物礦藏生成在你的國境內 (神秘的葉子、穀物、牲畜和魚)。"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:156
 msgid "Only MU owners/commanders can register their MU"
@@ -4185,7 +4185,7 @@ msgstr "總覽"
 #: src/components/_other/shop/SkinPackItem.tsx:136
 #: src/components/_other/shop/SkinPackModal.tsx:264
 msgid "Owned"
-msgstr ""
+msgstr "擁有的"
 
 #: src/pages/user/[userId]/index.tsx:168
 msgid "Owned Military Units"
@@ -4198,11 +4198,11 @@ msgstr "<0/> 的擁有權已從 <1/> 轉移至 <2/>"
 #: src/components/_political/party/party.frontConfig.tsx:64
 #: src/components/_political/party/party.frontConfig.tsx:77
 msgid "Pacifist"
-msgstr ""
+msgstr "和平主義"
 
 #: src/components/_other/shop/ShopHeader.tsx:29
 msgid "Packs"
-msgstr ""
+msgstr "組合包"
 
 #: src/components/_user/UserEquipments.tsx:163
 #: src/utils/translations.tsx:198
@@ -4219,89 +4219,89 @@ msgstr "參與戰鬥"
 
 #: src/pages/parties.tsx:13
 msgid "Parties"
-msgstr ""
+msgstr "政黨"
 
 #: src/components/_layout/LayoutRightIcons.tsx:303
 #: src/components/_layout/MoreButtonNav.tsx:140
 #: src/pages/user/[userId]/index.tsx:141
 msgid "Party"
-msgstr ""
+msgstr "政黨"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:363
 msgid "Party Application Accepted"
-msgstr ""
+msgstr "政黨申請已被通過"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:377
 msgid "Party Application Rejected"
-msgstr ""
+msgstr "政黨申請已被駁回"
 
 #: src/components/_political/election/election.frontConfig.tsx:38
 msgid "Party Council election"
-msgstr ""
+msgstr "政黨中常委選舉"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:251
 msgid "Party Council election candidacy is now open in <0/>"
-msgstr ""
+msgstr "政黨中常委參選已開放於 <0/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:242
 msgid "Party Council election candidate open"
-msgstr ""
+msgstr "政黨中常委參選開放"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:292
 msgid "Party Council election ended"
-msgstr ""
+msgstr "政黨中常委選舉已結束"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:301
 msgid "Party Council election has ended in <0/>. Check the results!"
-msgstr ""
+msgstr "於 <0/> 的中常委選舉已結束。來看看結果吧！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:267
 msgid "Party Council election vote open"
-msgstr ""
+msgstr "開放政黨中常委選舉投票"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:276
 msgid "Party Council election voting is now open in <0/>"
-msgstr ""
+msgstr "政黨中常委選舉已在 <0/> 開放"
 
 #: src/components/_political/party/PartyFormModal.tsx:36
 msgid "Party created"
-msgstr ""
+msgstr "政黨已創箭"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:404
 msgid "Party Donation Received"
-msgstr ""
+msgstr "已收到政黨捐款"
 
 #: src/components/_political/election/election.frontConfig.tsx:33
 msgid "Party Leader election"
-msgstr ""
+msgstr "黨主席選舉"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:246
 msgid "Party Leader election candidacy is now open in <0/>"
-msgstr ""
+msgstr "黨主席選舉參選已開放於 <0/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:240
 msgid "Party Leader election candidate open"
-msgstr ""
+msgstr "黨主席選舉已開放"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:290
 msgid "Party Leader election ended"
-msgstr ""
+msgstr "黨主席選舉已結束"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:296
 msgid "Party Leader election has ended in <0/>. Check the results!"
-msgstr ""
+msgstr "於 <0/> 的黨主席選舉已結束。來看看結果吧！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:265
 msgid "Party Leader election vote open"
-msgstr ""
+msgstr "開放黨主席選舉投票"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:271
 msgid "Party Leader election voting is now open in <0/>"
-msgstr ""
+msgstr "黨主席選舉已在 <0/> 開放"
 
 #: src/components/_political/election/CandidateFormModal.tsx:71
 msgid "Paste a link to your campaign article, or leave empty."
-msgstr ""
+msgstr "貼上一個連結至你的宣傳文章或留空。"
 
 #: src/pages/shop/index.tsx:43
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -4355,7 +4355,7 @@ msgstr "政治法案"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:66
 msgid "Political motions"
-msgstr ""
+msgstr "政治提案"
 
 #: src/components/_user/user/skills.frontConfig.tsx:128
 #: src/components/_user/user/skills.frontConfig.tsx:129
@@ -4396,7 +4396,7 @@ msgstr "總統"
 
 #: src/components/_political/election/election.frontConfig.tsx:23
 msgid "Presidential election"
-msgstr ""
+msgstr "總統選舉"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:137
 msgid "Presidential election candidacy is now open in <0/>"
@@ -4428,16 +4428,16 @@ msgstr "總統選舉"
 
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
-msgstr ""
+msgstr "初選"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:347
 msgid "Primary Election Ended"
-msgstr ""
+msgstr "初選已結束"
 
 #. placeholder {0}: ethicsBonuses.militarism[2].warPriorityHours
 #: src/components/_political/party/party.frontConfig.tsx:107
 msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> instead of 24."
-msgstr ""
+msgstr "宣戰或贏得戰鬥的優先級是 <0>{0} 小時</0> 而不是24。"
 
 #: src/pages/index.tsx:155
 msgid "Privacy"
@@ -4487,7 +4487,7 @@ msgstr "生產加成"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:156
 msgid "Production bonus:"
-msgstr ""
+msgstr "生產加成："
 
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
@@ -4508,7 +4508,7 @@ msgstr "晉升為指揮官"
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
-msgstr ""
+msgstr "提出一個提案"
 
 #: src/components/_political/law/law.frontConfig.tsx:203
 msgid "Propose alliance"
@@ -4529,7 +4529,7 @@ msgstr "出台法案"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "Propose motion"
-msgstr ""
+msgstr "提出提案"
 
 #: src/components/_political/law/law.frontConfig.tsx:108
 msgid "Propose peace"
@@ -4597,7 +4597,7 @@ msgstr "排行榜"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:128
 msgid "Raw materials:"
-msgstr ""
+msgstr "材料："
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -4659,7 +4659,7 @@ msgstr "原因"
 
 #: src/pages/party/[partyId]/index.tsx:85
 msgid "Recent Applications"
-msgstr ""
+msgstr "最近申請"
 
 #: src/pages/company/[companyId]/index.tsx:101
 msgid "Recipe"
@@ -4667,7 +4667,7 @@ msgstr "配方"
 
 #: src/components/_other/shop/SkinPackModal.tsx:232
 msgid "Recipient"
-msgstr ""
+msgstr "接收者"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -4726,7 +4726,7 @@ msgstr "使用以恢復 <0>30</0>"
 
 #: src/components/_political/party/PartyFormModal.tsx:109
 msgid "Region"
-msgstr ""
+msgstr "地區"
 
 #: src/components/_political/law/law.frontConfig.tsx:288
 msgid "Region buy offer"
@@ -4800,11 +4800,11 @@ msgstr "由於 <0/> 不活躍，將其從國會中移除"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:38
 msgid "Remove <0/> from the party council"
-msgstr ""
+msgstr "將 <0/> 移出中常委"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:32
 msgid "Remove a member from the party council"
-msgstr ""
+msgstr "移除一位中常委"
 
 #: src/pages/market/index.tsx:174
 #: src/pages/market/index.tsx:234
@@ -4825,7 +4825,7 @@ msgstr "移除頭像"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
 msgid "Remove council member"
-msgstr ""
+msgstr "移除中常委"
 
 #: src/components/_user/user/UserDropdown.tsx:389
 msgid "Remove Description"
@@ -4838,7 +4838,7 @@ msgstr "移除宿敵"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
 msgid "Remove the current party leader from their position"
-msgstr ""
+msgstr "移除現任黨主席"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1230
 msgid "Removed from Military Unit"
@@ -4855,7 +4855,7 @@ msgstr "重新命名公司"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
-msgstr ""
+msgstr "以新的配置取代舊的政黨傳統"
 
 #: src/components/_user/user/UserDropdown.tsx:248
 msgid "Report user"
@@ -4864,7 +4864,7 @@ msgstr "舉報用戶"
 #: src/components/_political/party/party.frontConfig.tsx:217
 #: src/components/_political/party/party.frontConfig.tsx:232
 msgid "Republican"
-msgstr ""
+msgstr "共和主義"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:197
 msgid "Requests:"
@@ -4916,7 +4916,7 @@ msgstr "抵抗度"
 
 #: src/components/_political/contribution/ContributionList.tsx:189
 msgid "Resistance Contributors"
-msgstr ""
+msgstr "抵抗度貢獻者"
 
 #: src/pages/country/[countryId]/index.tsx:302
 #: src/pages/region/[regionId]/index.tsx:49
@@ -4949,15 +4949,15 @@ msgstr "叛亂開始！"
 
 #: src/components/_political/event/EventList.tsx:77
 msgid "Revolution ended"
-msgstr ""
+msgstr "叛亂已結束"
 
 #: src/components/_political/event/EventList.tsx:76
 msgid "Revolution started"
-msgstr ""
+msgstr "叛亂已開始"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1075
 msgid "Revolution started!"
-msgstr ""
+msgstr "叛亂已開始！"
 
 #: src/utils/translations.tsx:24
 msgid "Rifle"
@@ -5007,7 +5007,7 @@ msgstr "規則"
 
 #: src/pages/country/[countryId]/index.tsx:310
 msgid "Ruling Party"
-msgstr ""
+msgstr "執政黨"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "Running low on health?"
@@ -5053,11 +5053,11 @@ msgstr "搜尋國家..."
 
 #: src/components/_other/shop/SkinPackModal.tsx:234
 msgid "Search recipient username..."
-msgstr ""
+msgstr "搜尋接收者用戶名稱..."
 
 #: src/components/_political/government/NominateForm.tsx:49
 msgid "Search username to nominate..."
-msgstr ""
+msgstr "搜尋用戶名稱以指派..."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:44
 msgid "See all your workers and companies stats"
@@ -5073,7 +5073,7 @@ msgstr "選擇一個地點"
 
 #: src/components/_political/party/PartyFormModal.tsx:110
 msgid "Select a region"
-msgstr ""
+msgstr "選擇一個地區"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Select all"
@@ -5081,7 +5081,7 @@ msgstr "全選"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
 msgid "Select an occupied region"
-msgstr ""
+msgstr "選擇一個被占領地區"
 
 #: src/components/_user/user/UserDropdown.tsx:221
 msgid "Select banner"
@@ -5089,7 +5089,7 @@ msgstr "選擇橫幅"
 
 #: src/components/_political/law/LawTypeSelect.tsx:66
 msgid "Select law type"
-msgstr ""
+msgstr "選擇法案類型"
 
 #: src/components/_political/law/LawFormModal.tsx:246
 msgid "Select map accent"
@@ -5097,11 +5097,11 @@ msgstr "選擇地圖深淺"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:59
 msgid "Select motion type"
-msgstr ""
+msgstr "選擇提案類型"
 
 #: src/components/_user/user/UserDropdown.tsx:228
 msgid "Select skin"
-msgstr ""
+msgstr "選擇造型"
 
 #: src/components/_economy/work/WorkChart.tsx:223
 #: src/components/_user/mission/mission.frontConfig.tsx:60
@@ -5138,7 +5138,7 @@ msgstr "賣單"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:111
 msgid "Sell price:"
-msgstr ""
+msgstr "賣出價格："
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5163,7 +5163,7 @@ msgstr "傳送訊息以完成教學。歡迎來到這個社群！"
 
 #: src/components/_other/shop/SkinPackModal.tsx:300
 msgid "Send Gift"
-msgstr ""
+msgstr "贈送禮物"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Send Message"
@@ -5203,11 +5203,11 @@ msgstr "設定國家顏色"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
-msgstr ""
+msgstr "設置新的政黨傳統配置："
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
-msgstr ""
+msgstr "設置政黨傳統"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:400
 msgid "Set Profile Picture"
@@ -5255,7 +5255,7 @@ msgstr "商店"
 
 #: src/pages/user/[userId]/bans.tsx:119
 msgid "Show Inventory"
-msgstr ""
+msgstr "顯示倉庫"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:216
 #: src/components/_social/ArticleTags.tsx:235
@@ -5283,32 +5283,32 @@ msgstr "技能已儲存！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "Skin gift received"
-msgstr ""
+msgstr "已收到造型禮物"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "Skin gift sent"
-msgstr ""
+msgstr "已送出造型禮物"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "Skin pack gift sent"
-msgstr ""
+msgstr "已送出造型組合包禮物"
 
 #: src/components/_other/shop/SkinPackModal.tsx:85
 msgid "Skin pack unlocked! All skins equipped!"
-msgstr ""
+msgstr "造型組合包已解鎖！所有造型已裝備！"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:91
 msgid "Skin Packs"
-msgstr ""
+msgstr "造型組合包"
 
 #: src/components/_other/shop/ShopHeader.tsx:22
 #: src/pages/user/[userId]/index.tsx:91
 msgid "Skins"
-msgstr ""
+msgstr "造型"
 
 #: src/components/_other/shop/SkinPackModal.tsx:250
 msgid "Skins in this pack"
-msgstr ""
+msgstr "在這組合包中的造型"
 
 #: src/components/_other/tour/TutorialStep.tsx:174
 msgid "Skip Tutorial"
@@ -5358,17 +5358,17 @@ msgstr "現在就開始國會選舉。"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:51
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:53
 msgid "Start a party council election immediately"
-msgstr ""
+msgstr "立即開始政黨中常委選舉"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:71
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:73
 msgid "Start a party leader election immediately"
-msgstr ""
+msgstr "立即開始黨主席選舉"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:104
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:106
 msgid "Start a party primary election immediately"
-msgstr ""
+msgstr "立即開始政黨初選"
 
 #: src/components/_political/law/law.frontConfig.tsx:124
 #: src/components/_political/law/law.frontConfig.tsx:126
@@ -5378,7 +5378,7 @@ msgstr "現在就開始總統選舉"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:113
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:115
 msgid "Start a revolution to overthrow the government"
-msgstr ""
+msgstr "開始革命以推翻政府"
 
 #: src/components/_political/law/law.frontConfig.tsx:131
 msgid "Start congress election"
@@ -5390,7 +5390,7 @@ msgstr "開始總統選舉"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:112
 msgid "Start revolution"
-msgstr ""
+msgstr "開始革命"
 
 #: src/components/_military/battle/BattleHeader.tsx:185
 #: src/components/_military/war/WarHeader.tsx:61
@@ -5644,11 +5644,11 @@ msgstr "這個法案可能具有濫用風險，且該國需至少 5 名以上的
 #: src/components/_political/law/LawTypeSelect.tsx:176
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:138
 msgid "This law has an additional variable cost"
-msgstr ""
+msgstr "這個法案有額外的花費"
 
 #: src/components/_political/law/LawTypeSelect.tsx:191
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
-msgstr ""
+msgstr "這個法案需要國家中有至少 {minActiveCitizen} 位活躍公民 (等級 10+)"
 
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
@@ -5684,11 +5684,11 @@ msgstr "熱門"
 
 #: src/components/_social/ArticleList.tsx:140
 msgid "Top (1d)"
-msgstr ""
+msgstr "熱門 (1天)"
 
 #: src/components/_social/ArticleList.tsx:147
 msgid "Top (1w)"
-msgstr ""
+msgstr "熱門 (1周)"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:84
 msgid "Top 3 offers"
@@ -5700,7 +5700,7 @@ msgstr "最強國家"
 
 #: src/components/_economy/donation/DonationList.tsx:87
 msgid "Top Donors"
-msgstr ""
+msgstr "捐獻榜首"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:66
 msgid "Top eligible offer:"
@@ -5733,7 +5733,7 @@ msgstr "總傷害"
 
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"
-msgstr ""
+msgstr "總捐款："
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:75
 #: src/components/_military/battle/ActiveBattlesList.tsx:139
@@ -5798,7 +5798,7 @@ msgstr "調職到其他公司 (選填)"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Trebuchet"
-msgstr ""
+msgstr "大型投石機"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:36
 msgid "Trooper"
@@ -5834,25 +5834,25 @@ msgstr "未與首都連接"
 
 #: src/components/_other/shop/SkinPackModal.tsx:307
 msgid "Unlock"
-msgstr ""
+msgstr "解鎖"
 
 #. placeholder {0}: estimate.notOwnedCount
 #. placeholder {1}: estimate.notOwnedCount > 1 ? 's' : ''
 #: src/components/_other/shop/SkinPackModal.tsx:302
 msgid "Unlock {0} skin{1}"
-msgstr ""
+msgstr "解鎖 {0} 造型{1}"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:89
 msgid "Unlock Help all button"
-msgstr "解鎖一鍵幫助'"
+msgstr "解鎖一鍵幫助"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:86
 msgid "Unlock Produce all button"
-msgstr "解鎖一鍵生產'"
+msgstr "解鎖一鍵生產"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1756
 msgid "Unlocked pack"
-msgstr ""
+msgstr "已解鎖組合包"
 
 #: src/components/_user/user/UserDropdown.tsx:296
 msgid "Unmute user"
@@ -5872,11 +5872,11 @@ msgstr "註銷"
 
 #: src/pages/country/[countryId]/index.tsx:293
 msgid "Unrest"
-msgstr ""
+msgstr "動盪值"
 
 #: src/components/_political/contribution/ContributionList.tsx:191
 msgid "Unrest Contributors"
-msgstr ""
+msgstr "動盪值貢獻者"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Unselect all"
@@ -6013,7 +6013,7 @@ msgstr "用戶行為"
 
 #: src/components/_other/shop/SkinPackModal.tsx:283
 msgid "User already owns all skins"
-msgstr ""
+msgstr "用戶已擁有所有造型"
 
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
@@ -6049,71 +6049,71 @@ msgstr "用戶"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:9
 msgid "UwU"
-msgstr ""
+msgstr "UwU"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:8
 msgid "Valentine Ammo"
-msgstr ""
+msgstr "情人節子彈"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:47
 msgid "Valentine Boots"
-msgstr ""
+msgstr "情人節靴子"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:26
 msgid "Valentine Cat Ears"
-msgstr ""
+msgstr "情人節貓耳"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:29
 msgid "Valentine Chest"
-msgstr ""
+msgstr "情人節胸甲"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:53
 msgid "Valentine Gloves"
-msgstr ""
+msgstr "情人節手套"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:41
 msgid "Valentine Gun"
-msgstr ""
+msgstr "情人節槍"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:14
 msgid "Valentine Heavy Ammo"
-msgstr ""
+msgstr "情人節重型子彈"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:35
 msgid "Valentine Knife"
-msgstr ""
+msgstr "情人節小刀"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:11
 msgid "Valentine Light Ammo"
-msgstr ""
+msgstr "情人節輕型子彈"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:38
 msgid "Valentine Lollipop"
-msgstr ""
+msgstr "情人節棒棒糖"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:8
 msgid "Valentine Pack"
-msgstr ""
+msgstr "情人節組合包"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:32
 msgid "Valentine Pants"
-msgstr ""
+msgstr "情人節靴子"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:44
 msgid "Valentine Rifle"
-msgstr ""
+msgstr "情人節來福槍"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Valentine Skirt"
-msgstr ""
+msgstr "情人節裙子"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:50
 msgid "Valentine Sniper"
-msgstr ""
+msgstr "情人節狙擊槍"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:17
 msgid "Valentine Tank"
-msgstr ""
+msgstr "情人節坦克"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:56
 msgid "Vanguard"
@@ -6149,7 +6149,7 @@ msgstr "副總統"
 
 #: src/components/_military/battle/BattleHeader.tsx:168
 msgid "View on map"
-msgstr ""
+msgstr "在地圖上查看"
 
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
@@ -6166,7 +6166,7 @@ msgstr "薪資已更改"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:119
 msgid "Wage cost ({productionPoints} pts):"
-msgstr ""
+msgstr "薪資花費 ({productionPoints} pts)："
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
@@ -6273,11 +6273,11 @@ msgstr "你為何想提出這項法律？"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
-msgstr ""
+msgstr "有加成"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:195
 msgid "with bonus + fidelity"
-msgstr ""
+msgstr "有加成 + 忠誠度"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
@@ -6379,7 +6379,7 @@ msgstr "你並非此國家的國會議員"
 
 #: src/components/_political/partyMotion/PartyMotionList.tsx:44
 msgid "You are not a council member of this party"
-msgstr ""
+msgstr "你不是這個政黨的中常委"
 
 #: src/pages/events/index.tsx:133
 msgid "You are not participating"
@@ -6403,7 +6403,7 @@ msgstr "你可以在倉庫中透過選取裝備來拆解裝備。"
 
 #: src/components/_political/election/CandidateFormModal.tsx:61
 msgid "You can optionally link a campaign article to your candidacy."
-msgstr ""
+msgstr "你可以在參選時填上宣傳文章連結"
 
 #: src/components/_user/user/Level.tsx:82
 msgid "You can upgrade your skills!"
@@ -6415,7 +6415,7 @@ msgstr "若你已有政府/國會的職位，不能申請公民身分"
 
 #: src/pages/party/[partyId]/applications.tsx:28
 msgid "You don't have permission to view applications."
-msgstr ""
+msgstr "你沒有權限瀏覽申請。"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:872
 msgid "You feel healthy, the debuff effect no longer affects you."
@@ -6435,7 +6435,7 @@ msgstr "你在 <0/> 已被 <1/> 從指揮官降級"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:335
 msgid "You have been elected as the new leader of <0/>"
-msgstr ""
+msgstr "你已被選為 <0/> 的新領導人"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1246
 msgid "You have been promoted to commander in <0/> by <1/>"
@@ -6508,7 +6508,7 @@ msgstr "你在戰場上掠奪了金錢。"
 #: src/components/_political/region/RegionResistance.tsx:120
 #: src/components/_political/unrest/UnrestPanel.tsx:92
 msgid "You must be at least level {0} to contribute."
-msgstr ""
+msgstr "你至少要等級 {0} 才能貢獻"
 
 #: src/components/_user/premium/PremiumActions.tsx:42
 msgid "You must be on web to subscribe"
@@ -6516,7 +6516,7 @@ msgstr "你必須連上網路才能訂閱"
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:92
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
-msgstr ""
+msgstr "你必須花費所有 3 點傳統點數 (剩餘 {pointsRemaining})"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "You need to equip a weapon first"
@@ -6539,11 +6539,11 @@ msgstr "你出售了物品。"
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1564
 msgid "You successfully gifted \"{0}\" to <0/>!"
-msgstr ""
+msgstr "你已成功贈送 \"{0}\" 給 <0/> ！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1664
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
-msgstr ""
+msgstr "你已成功贈送 \"{skinTitle}\" 給 <0/> ！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1141
 msgid "You successfully gifted a premium subscription to <0/>!"
@@ -6552,7 +6552,7 @@ msgstr "你成功向 <0/> 贈送了一個高級訂閱！"
 #. placeholder {0}: data.skinPackTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1728
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
-msgstr ""
+msgstr "你已成功贈送造型組合包 \"{0}\" 給 <0/> ！"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:20
 msgid "You very lucky"
@@ -6632,7 +6632,7 @@ msgstr "你向 <0/> 提交的申請已遭拒絕"
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1625
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
-msgstr ""
+msgstr "你的橫幅 \"{0}\" 已被接受且現在已上架商店！它已向你自動解鎖。"
 
 #: src/pages/country/[countryId]/index.tsx:140
 msgid "Your citizenship is going to change"
@@ -6724,7 +6724,7 @@ msgstr "你的訂單"
 
 #: src/components/_political/party/PartyFormModal.tsx:98
 msgid "Your party name"
-msgstr ""
+msgstr "你的政黨名稱"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1123
 msgid "Your premium subscription has been activated!"
