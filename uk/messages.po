@@ -102,19 +102,19 @@ msgstr "{0}% інвестицій"
 
 #: src/components/_military/battle/BattleName.tsx:141
 msgid "{battleIcon}Resistance battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon}Повстанська битва у {regionName} {score}"
 
 #: src/components/_military/battle/BattleName.tsx:146
 msgid "{battleIcon}Revolution battle {score}"
-msgstr ""
+msgstr "{battleIcon}Повстанська битва {score}"
 
 #: src/components/_military/battle/BattleName.tsx:151
 msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
-msgstr ""
+msgstr "{battleIcon} Турнірна битва у {tournamentName} {score}"
 
 #: src/components/_military/battle/BattleName.tsx:136
 msgid "{battleIcon}War battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon}Битва за {regionName} {score}"
 
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
@@ -167,7 +167,7 @@ msgstr "Держава <0/> завоювала регіон у <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:74
 msgid "<0/> created the conversation"
-msgstr ""
+msgstr "<0/> створив розмову"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
@@ -186,7 +186,7 @@ msgstr "<0/> звільнив вас з роботи у <2/> (зарплата <
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
-msgstr ""
+msgstr "<0/> подарував підписку <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
@@ -236,7 +236,7 @@ msgstr "<0/> повстає у <1/> проти вашої держави"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
-msgstr ""
+msgstr "<0/> приєднався до розмови"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:686
 msgid "<0/> joined the game with your referral link!"
@@ -249,7 +249,7 @@ msgstr "<0/> приєднався до вашої фабрики <1/> з зар�
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
-msgstr ""
+msgstr "<0/> вигнав <1/> з розмови"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
@@ -258,7 +258,7 @@ msgstr "<0/> покинув роботу на вашій фабриці {0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
-msgstr ""
+msgstr "<0/> покинув розмову"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
@@ -313,13 +313,13 @@ msgstr "<0/> отримав посаду <1>{0}</1>"
 #. placeholder {0}: data.roundNumber
 #: src/components/_political/message/systemMessage.frontConfig.tsx:55
 msgid "<0/> won round {0}"
-msgstr ""
+msgstr "<0/> здобула перемогу в раунді {0}"
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
 #: src/components/_political/message/systemMessage.frontConfig.tsx:64
 msgid "<0/> won the battle ({0}-{1})"
-msgstr ""
+msgstr "<0/> перемогла у битві ({0}-{1})"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"
@@ -947,7 +947,7 @@ msgstr "Прийнято"
 
 #: src/components/_military/battle/BattleHeader.tsx:161
 msgid "Access war"
-msgstr ""
+msgstr "Перейти до війни"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/components/_user/user/UserHeader.tsx:162
@@ -4669,7 +4669,7 @@ msgstr "Рецепт"
 
 #: src/components/_other/shop/SkinPackModal.tsx:232
 msgid "Recipient"
-msgstr ""
+msgstr "Отримувач"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -5055,11 +5055,11 @@ msgstr "Знайти державу..."
 
 #: src/components/_other/shop/SkinPackModal.tsx:234
 msgid "Search recipient username..."
-msgstr ""
+msgstr "Знайти отримувача за прізвиськом"
 
 #: src/components/_political/government/NominateForm.tsx:49
 msgid "Search username to nominate..."
-msgstr ""
+msgstr "Пошук за прізвиськом..."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:44
 msgid "See all your workers and companies stats"
@@ -6152,7 +6152,7 @@ msgstr "Віцепрезидент"
 
 #: src/components/_military/battle/BattleHeader.tsx:168
 msgid "View on map"
-msgstr ""
+msgstr "Побачити на мапі"
 
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
