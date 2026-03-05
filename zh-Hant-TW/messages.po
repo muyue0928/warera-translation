@@ -1648,7 +1648,7 @@ msgstr "買單已配對！"
 msgid "Buy orders"
 msgstr "買單"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "欲繼續，將視為你同意我們的<0>服務條款</0>。"
 
@@ -1697,19 +1697,19 @@ msgstr "無法挑選一個特產 / 沒有來自於特產的優勢"
 msgid "Captain"
 msgstr "將軍"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA 過期，請再試一次。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA 失敗，重置中..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA 已逾時，重置中..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA 驗證已逾時，重置中..."
 
@@ -2059,15 +2059,15 @@ msgstr "國會有最小席次 <0>{0} 席</0>。"
 msgid "Congress members"
 msgstr "國會議員"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "使用 Discord 登入"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr "使用電子郵件驗證碼登入"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr "使用 Google 登入"
 
@@ -2710,8 +2710,8 @@ msgstr "少尉"
 msgid "Enter article ID"
 msgstr "輸入文章ID"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "輸入我們傳送至你電子郵件的驗證碼"
 
@@ -2781,19 +2781,19 @@ msgstr "複製失敗"
 msgid "Failed to copy text: "
 msgstr "無法複製文字："
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "無法開始 Discord 登入。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "無法開始 Discord 登入，請重試 CAPTCHA。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr "無法開始 Google 登入。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "無法開始 Google 登入。請重試 CAPTCHA"
 
@@ -3430,6 +3430,12 @@ msgstr "語言"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "最近的禮物"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "藥丸"
 msgid "Plant a tree in the data center"
 msgstr "在資料中心種一棵樹"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "請完成 CAPTCHA"
 
@@ -5124,7 +5130,7 @@ msgstr "重置"
 msgid "Reset avatar"
 msgstr "重置頭像"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "重置 CAPTCHA"
 
@@ -5723,7 +5729,7 @@ msgstr "已訂閱"
 msgid "Subscribers"
 msgstr "訂閱者"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr "成功登入！"
 
@@ -5822,7 +5828,7 @@ msgstr "稅金"
 msgid "Terms"
 msgstr "期限"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr "服務條款"
 
@@ -6484,7 +6490,7 @@ msgstr "驗證你的電子信箱以創建職缺。查看你的電子信箱或是
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "驗證你的電子信箱以交易物品。查看你的電子信箱或是重新登入"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "正在驗證 CAPTCHA 中..."
 
@@ -7129,7 +7135,7 @@ msgstr "你在 <0/> 的薪資已從 <1>{0}</1> 改變為 <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "你的每週任務已重置，完成它們以賺取獎勵！"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "your@email.com"
 

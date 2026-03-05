@@ -1648,7 +1648,7 @@ msgstr "Inkooporder match!"
 msgid "Buy orders"
 msgstr "Kooporders"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Door door te gaan, ga je akkoord met onze <0>Servicevoorwaarden</0>."
 
@@ -1697,19 +1697,19 @@ msgstr "Je kunt geen specialisatie grondstof kiezen/geen voordeel van specialisa
 msgid "Captain"
 msgstr "Kapitein"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "De CAPTCHA-uitdaging is verlopen. Probeer het opnieuw."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA-uitdaging mislukt. Wordt gereset..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA is verlopen. Wordt gereset..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA-verificatie is verlopen. Wordt gereset..."
 
@@ -2059,15 +2059,15 @@ msgstr "Het Congres heeft minimaal <0>{0} zetels</0>."
 msgid "Congress members"
 msgstr "Congresleden"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "Verbinden via Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr "Verbinden met e-mailcode"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr "Verbinden via Google"
 
@@ -2710,8 +2710,8 @@ msgstr "Vaandel"
 msgid "Enter article ID"
 msgstr "Voer artikel ID in"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "Voer de code in die we naar je e-mail hebben verzonden."
 
@@ -2781,19 +2781,19 @@ msgstr "Niet gekopieerd"
 msgid "Failed to copy text: "
 msgstr "Tekst kopiëren mislukt: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "Discord-login is niet gestart."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Discord-login is niet gestart. Probeer de CAPTCHA alsjeblieft opnieuw."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr "Mislukt om Google-login te starten."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Mislukt om Google-login te starten. Probeer de CAPTCHA alsjeblieft opnieuw."
 
@@ -3430,6 +3430,12 @@ msgstr "Taal"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Laatste geschenken"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "Pil"
 msgid "Plant a tree in the data center"
 msgstr "Plant een boom in het datacenter"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "Voltooi de CAPTCHA alstublieft."
 
@@ -5124,7 +5130,7 @@ msgstr "Reset"
 msgid "Reset avatar"
 msgstr "Avatar resetten"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "Reset CAPTCHA"
 
@@ -5723,7 +5729,7 @@ msgstr "Geabonneerd"
 msgid "Subscribers"
 msgstr "Abonnees"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr "Succesvol ingelogd!"
 
@@ -5822,7 +5828,7 @@ msgstr "Belastingen"
 msgid "Terms"
 msgstr "Voorwaarden"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr "Servicevoorwaarden"
 
@@ -6484,7 +6490,7 @@ msgstr "Bevestig je e-mailadres om vacatures te maken. Controleer je e-mail of l
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Bevestig je e-mailadres om items te ruilen. Controleer je e-mail of log opnieuw uit/in"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "CAPTCHA wordt geverifieerd..."
 
@@ -7129,7 +7135,7 @@ msgstr "Je salaris in <0/> veranderd van <1>{0}</1> naar <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Je wekelijkse missies zijn opnieuw ingesteld! Voltooi ze om beloningen te verdienen."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "your@email.com"
 

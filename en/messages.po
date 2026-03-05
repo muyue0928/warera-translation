@@ -1648,7 +1648,7 @@ msgstr "Buy order match!"
 msgid "Buy orders"
 msgstr "Buy orders"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "By continuing, you agree to our <0>Terms of Service</0>."
 
@@ -1697,19 +1697,19 @@ msgstr "Cannot pick a specialization good / no benefit from specialization."
 msgid "Captain"
 msgstr "Captain"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA challenge expired. Please try again."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA challenge failed. Resetting..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA timed out. Resetting..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA verification timed out. Resetting..."
 
@@ -2059,15 +2059,15 @@ msgstr "Congress has a minimum of <0>{0} seats</0>."
 msgid "Congress members"
 msgstr "Congress members"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "Connect with Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr "Connect with email code"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr "Connect with Google"
 
@@ -2710,8 +2710,8 @@ msgstr "Ensign"
 msgid "Enter article ID"
 msgstr "Enter article ID"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "Enter the code we sent to your email."
 
@@ -2781,19 +2781,19 @@ msgstr "Failed to copy"
 msgid "Failed to copy text: "
 msgstr "Failed to copy text: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "Failed to start Discord login."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Failed to start Discord login. Please retry the CAPTCHA."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr "Failed to start Google login."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Failed to start Google login. Please retry the CAPTCHA."
 
@@ -3430,6 +3430,12 @@ msgstr "Language"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Last gifts"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr "Last used"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "Pill"
 msgid "Plant a tree in the data center"
 msgstr "Plant a tree in the data center"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "Please complete the CAPTCHA."
 
@@ -5124,7 +5130,7 @@ msgstr "Reset"
 msgid "Reset avatar"
 msgstr "Reset avatar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "Reset CAPTCHA"
 
@@ -5723,7 +5729,7 @@ msgstr "Subscribed"
 msgid "Subscribers"
 msgstr "Subscribers"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr "Successfully logged in!"
 
@@ -5822,7 +5828,7 @@ msgstr "Taxes"
 msgid "Terms"
 msgstr "Terms"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr "Terms of Service"
 
@@ -6484,7 +6490,7 @@ msgstr "Verify your email to create job offers. Check your email or logout/login
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Verify your email to trade items. Check your email or logout/login again"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "Verifying CAPTCHA..."
 
@@ -7129,7 +7135,7 @@ msgstr "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Your weekly missions have been reset! Complete them to earn rewards."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "your@email.com"
 

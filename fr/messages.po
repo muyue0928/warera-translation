@@ -1648,7 +1648,7 @@ msgstr "Ordre d'achat correspondant !"
 msgid "Buy orders"
 msgstr "Ordres d'achat"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "En continuant, vous acceptez nos <0>Conditions d'utilisation</0>."
 
@@ -1697,19 +1697,19 @@ msgstr "Impossible de choisir un bien de spécialisation / aucun avantage de la 
 msgid "Captain"
 msgstr "Capitaine"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "Le défi CAPTCHA a expiré. Veuillez réessayer."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "Le défi CAPTCHA a échoué. Réinitialisation..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "Le CAPTCHA a expiré. Réinitialisation..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "La vérification CAPTCHA a expiré. Réinitialisation..."
 
@@ -2059,15 +2059,15 @@ msgstr "Le Congrès a un minimum de <0>{0} sièges</0>."
 msgid "Congress members"
 msgstr "Parlementaires"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "Se connecter avec Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr "Connectez-vous avec le code email"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr "Se connecter avec Google"
 
@@ -2710,8 +2710,8 @@ msgstr "Enseigne"
 msgid "Enter article ID"
 msgstr "Entrez l'ID de l'article"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "Entrez le code que nous vous avons envoyé par e-mail."
 
@@ -2781,19 +2781,19 @@ msgstr "Échec de la copie"
 msgid "Failed to copy text: "
 msgstr "Échec de la copie du texte : "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "Impossible de démarrer la connexion Discord."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Impossible de démarrer la connexion Discord. Veuillez réessayer le CAPTCHA."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr "Impossible de démarrer la connexion Google."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Impossible de démarrer la connexion Google. Veuillez réessayer le CAPTCHA."
 
@@ -3430,6 +3430,12 @@ msgstr "Langue"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Derniers cadeaux"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "Pilule"
 msgid "Plant a tree in the data center"
 msgstr "Planter un arbre dans le data center"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "Veuillez compléter le CAPTCHA."
 
@@ -5124,7 +5130,7 @@ msgstr "Réinitialiser"
 msgid "Reset avatar"
 msgstr "Réinitialiser l'avatar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "Réinitialiser le CAPTCHA"
 
@@ -5723,7 +5729,7 @@ msgstr "Abonné"
 msgid "Subscribers"
 msgstr "Abonnés"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr "Connexion réussie !"
 
@@ -5822,7 +5828,7 @@ msgstr "Impôts"
 msgid "Terms"
 msgstr "Conditions"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr "Conditions d'utilisation"
 
@@ -6484,7 +6490,7 @@ msgstr "Vérifiez votre email pour créer des offres d'emploi. Consultez votre e
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Vérifiez votre email pour échanger des articles. Consultez votre email ou déconnectez-vous et reconnectez-vous"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "Vérification du CAPTCHA..."
 
@@ -7129,7 +7135,7 @@ msgstr "Votre salaire dans <0/> est passé de <1>{0}</1> à <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Vos missions hebdomadaires ont été réinitialisées ! Complétez-les pour gagner des récompenses."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "votre@email.com"
 

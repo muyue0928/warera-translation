@@ -1648,7 +1648,7 @@ msgstr "¡Orden de compra coincidida!"
 msgid "Buy orders"
 msgstr "Órdenes de compra"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Al continuar, aceptas nuestros <0>Términos de servicio</0>."
 
@@ -1697,19 +1697,19 @@ msgstr "No puedes elegir un bien de especialización / no se obtiene ningún ben
 msgid "Captain"
 msgstr "Capitán"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "El desafío CAPTCHA ha caducado. Inténtalo de nuevo."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "El desafío CAPTCHA ha fallado. Reiniciando..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "El CAPTCHA se agotó por tiempo. Reiniciando..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "La verificación del CAPTCHA se agotó por tiempo. Reiniciando..."
 
@@ -2059,15 +2059,15 @@ msgstr "El congreso tiene un mínimo de <0>{0} escaños</0>."
 msgid "Congress members"
 msgstr "Miembros del congreso"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "Conectar con Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr "Conectar con código de email"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr "Conectar con Google"
 
@@ -2710,8 +2710,8 @@ msgstr "Alférez"
 msgid "Enter article ID"
 msgstr "Introduce el ID del artículo"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "Introduce el código que te enviamos a tu correo."
 
@@ -2781,19 +2781,19 @@ msgstr "Error al copiar"
 msgid "Failed to copy text: "
 msgstr "Error al copiar el texto: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "No se pudo iniciar el inicio de sesión con Discord."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "No se pudo iniciar el inicio de sesión con Discord. Vuelve a intentar el CAPTCHA."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr "Error al iniciar sesión con Google."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Error al iniciar sesión con Google. Por favor, inténtalo de nuevo con el CAPTCHA."
 
@@ -3430,6 +3430,12 @@ msgstr "Idioma"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Últimos regalos"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "Píldora"
 msgid "Plant a tree in the data center"
 msgstr "Plantar un árbol en el data center"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "Por favor, completa el CAPTCHA."
 
@@ -5124,7 +5130,7 @@ msgstr "Restablecer"
 msgid "Reset avatar"
 msgstr "Restablecer avatar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "Reiniciar CAPTCHA"
 
@@ -5723,7 +5729,7 @@ msgstr "Suscrito"
 msgid "Subscribers"
 msgstr "Suscriptores"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr "¡Inicio de sesión exitoso!"
 
@@ -5822,7 +5828,7 @@ msgstr "Impuestos"
 msgid "Terms"
 msgstr "Términos"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr "Términos de servicio"
 
@@ -6484,7 +6490,7 @@ msgstr "Verifica tu email para crear ofertas de trabajo. Revisa tu email o cierr
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Verifica tu email para comerciar artículos. Revisa tu email o cierra sesión e inicia de nuevo"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "Verificando CAPTCHA..."
 
@@ -7129,7 +7135,7 @@ msgstr "Tu salario en <0/> cambió de <1>{0}</1> a <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "¡Tus misiones semanales han sido reiniciadas! Completa las misiones para ganar recompensas."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "tu@email.com"
 

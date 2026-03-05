@@ -1648,7 +1648,7 @@ msgstr "Vételi ajánlat találat!"
 msgid "Buy orders"
 msgstr "Vételi ajánlatok"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:322
+#: src/components/_user/auth/ConnectFromModal.tsx:349
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr ""
 
@@ -1697,19 +1697,19 @@ msgstr "Nem választhat szakosodási árut / nincs haszna a szakosodásból."
 msgid "Captain"
 msgstr "Kapitány"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:242
+#: src/components/_user/auth/ConnectFromModal.tsx:252
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "A CAPTCHA kihívás lejárt. Kérlek, próbáld újra."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:238
+#: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "A CAPTCHA kihívás meghiúsult. Újraindítás..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:246
+#: src/components/_user/auth/ConnectFromModal.tsx:256
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA időtúllépés. Újraindítás..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:69
+#: src/components/_user/auth/ConnectFromModal.tsx:76
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "A CAPTCHA ellenőrzés időtúllépés történt. Újraindítás..."
 
@@ -2059,15 +2059,15 @@ msgstr "A kongresszusnak minimum <0>{0} helye</0> van."
 msgid "Congress members"
 msgstr "Kongresszusi tagok"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:299
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Connect with Discord"
 msgstr "Csatlakozás Discord-dal"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:285
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Connect with email code"
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:312
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Google"
 msgstr ""
 
@@ -2710,8 +2710,8 @@ msgstr "Zászlós"
 msgid "Enter article ID"
 msgstr "Add meg a cikk azonosítóját"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:144
-#: src/components/_user/auth/ConnectFromModal.tsx:149
+#: src/components/_user/auth/ConnectFromModal.tsx:153
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Enter the code we sent to your email."
 msgstr "Add meg az e-mailben küldött kódot."
 
@@ -2781,19 +2781,19 @@ msgstr "Másolás sikertelen"
 msgid "Failed to copy text: "
 msgstr "Szöveg másolása sikertelen: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:98
+#: src/components/_user/auth/ConnectFromModal.tsx:106
 msgid "Failed to start Discord login."
 msgstr "Discord bejelentkezés indítása sikertelen."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:96
+#: src/components/_user/auth/ConnectFromModal.tsx:104
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Discord bejelentkezés indítása sikertelen. Kérlek próbáld újra a CAPTCHA-t."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:117
+#: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:115
+#: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr ""
 
@@ -3430,6 +3430,12 @@ msgstr "Nyelv"
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Utolsó ajándékok"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:298
+#: src/components/_user/auth/ConnectFromModal.tsx:317
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+msgid "Last used"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -4571,9 +4577,9 @@ msgstr "Tabletta"
 msgid "Plant a tree in the data center"
 msgstr "Ültess egy fát az adatközpontban"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:86
-#: src/components/_user/auth/ConnectFromModal.tsx:105
-#: src/components/_user/auth/ConnectFromModal.tsx:171
+#: src/components/_user/auth/ConnectFromModal.tsx:93
+#: src/components/_user/auth/ConnectFromModal.tsx:113
+#: src/components/_user/auth/ConnectFromModal.tsx:180
 msgid "Please complete the CAPTCHA."
 msgstr "Kérjük, töltsd ki a CAPTCHA-t."
 
@@ -5124,7 +5130,7 @@ msgstr "Visszaállítás"
 msgid "Reset avatar"
 msgstr "Avatar visszaállítása"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:270
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA visszaállítása"
 
@@ -5723,7 +5729,7 @@ msgstr "Feliratkozva"
 msgid "Subscribers"
 msgstr "Feliratkozók"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:129
+#: src/components/_user/auth/ConnectFromModal.tsx:138
 msgid "Successfully logged in!"
 msgstr ""
 
@@ -5822,7 +5828,7 @@ msgstr "Adók"
 msgid "Terms"
 msgstr "Feltételek"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:349
+#: src/components/_user/auth/ConnectFromModal.tsx:376
 msgid "Terms of Service"
 msgstr ""
 
@@ -6484,7 +6490,7 @@ msgstr "Igazold az e-mail címed az állásajánlatok létrehozásához. Ellenő
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Igazold az e-mail címed a tárgyak kereskedéséhez. Ellenőrizd az e-mailedet vagy jelentkezz ki és be újra"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:268
 msgid "Verifying CAPTCHA..."
 msgstr "CAPTCHA ellenőrzése..."
 
@@ -7129,7 +7135,7 @@ msgstr "A béred a <0/> cégnél <1>{0}</1> értékről <2>{1}</2> értékre vá
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "A heti küldetéseid újraindultak! Teljesítsd őket, hogy jutalmakat szerezz."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:207
+#: src/components/_user/auth/ConnectFromModal.tsx:217
 msgid "your@email.com"
 msgstr "te@email.hu"
 
