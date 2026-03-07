@@ -126,7 +126,7 @@ msgstr "{registeredCount} {entityLabel} 已登記"
 
 #: src/components/_military/battle/BattleTimeline.tsx:61
 msgid "{roundsToWin} Rounds to win"
-msgstr "還要 {roundsToWin} 回合獲勝"
+msgstr "需要 {roundsToWin} 回合獲勝"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:49
@@ -233,7 +233,7 @@ msgstr "<0/> 被選為 <1/> 的總統"
 #. placeholder {0}: data.amount
 #: src/components/_political/event/event.frontConfig.tsx:211
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
-msgstr "<0/> 已從 <2/> 花費 <3>{0}</3> 購買 <1/>"
+msgstr "<0/> 已花費 <3>{0}</3> 向 <2/> 購買 <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:327
 msgid "<0/> has broken their alliance with <1/>"
